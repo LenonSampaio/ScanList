@@ -19,7 +19,6 @@
 
 - Flutter: O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
 
-- Firebase: Para armazenar os dados das listas e equipamentos, o aplicativo utiliza o Firebase, um serviço de banco de dados em tempo real fornecido pela Google.
 
 ## Contribuições e Feedback
 Contribuições: Se você deseja contribuir para o desenvolvimento do aplicativo, fique à vontade para abrir pull requests ou propor novas funcionalidades. O projeto está aberto a colaborações e incentiva a participação da comunidade.
