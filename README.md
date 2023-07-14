@@ -1,16 +1,23 @@
-# glpi_icict
+# Aplicativo de Leitura de Código de Barras e Acesso Rápido
 
-A new Flutter project.
+Este é um aplicativo simples desenvolvido em Flutter que permite a leitura de códigos de barras e o armazenamento em uma lista. Além disso, oferece acesso rápido a sistemas usando webview.
 
-## Getting Started
+## Recursos
 
-This project is a starting point for a Flutter application.
+- Leitura de códigos de barras: O aplicativo utiliza a câmera do dispositivo para ler códigos de barras, como QR codes e códigos de barras convencionais.
 
-A few resources to get you started if this is your first Flutter project:
+- Armazenamento em lista: Os códigos de barras lidos são armazenados em uma lista, permitindo que o usuário os acesse posteriormente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Acesso rápido a sistemas: Além da funcionalidade de leitura de código de barras, o aplicativo oferece acesso rápido a sistemas usando webview, permitindo que o usuário acesse rapidamente sistemas externos relacionados aos códigos de barras lidos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias utilizadas
+
+- Flutter: O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
+
+## Instalação
+
+1. Certifique-se de ter o Flutter instalado em seu sistema. Você pode encontrar as instruções de instalação na [documentação oficial do Flutter](https://flutter.dev/docs/get-started).
+
+2. Clone este repositório em sua máquina local:
+   ```shell
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
