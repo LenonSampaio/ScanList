@@ -1,6 +1,5 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:path_provider/path_provider.dart';
@@ -10,12 +9,10 @@ class BarcodeScanner extends StatefulWidget {
   const BarcodeScanner({Key? key}) : super(key: key);
 
   @override
-  // ignore: library_private_types_in_public_api
   _BarcodeScannerState createState() => _BarcodeScannerState();
 }
 
 class _BarcodeScannerState extends State<BarcodeScanner> {
-  // ignore: unused_field
   final List<String> _barcodes = [];
   String _currentBarcode = '';
   List<String> _fileList = [];
@@ -267,6 +264,70 @@ class _BarcodeScannerState extends State<BarcodeScanner> {
     }
   }
 
+  Future<void> _renameFile(String fileName) async {
+    String newFileName = fileName;
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Renomear Arquivo'),
+          content: TextField(
+            onChanged: (value) {
+              newFileName = value;
+            },
+            decoration: const InputDecoration(
+              labelText: 'Novo nome do arquivo',
+              border: OutlineInputBorder(),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: const Text('Cancelar'),
+            ),
+            TextButton(
+              onPressed: () async {
+                final directory = await getApplicationDocumentsDirectory();
+                final file = File('${directory.path}/$fileName.txt');
+                final newFile = File('${directory.path}/$newFileName.txt');
+
+                if (await newFile.exists()) {
+                  showDialog(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                        title: const Text('Erro'),
+                        content: const Text('Esse nome de arquivo já existe.'),
+                        actions: [
+                          TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                            },
+                            child: const Text('OK'),
+                          ),
+                        ],
+                      );
+                    },
+                  );
+                  return;
+                }
+
+                await file.rename(newFile.path);
+                _loadFileList();
+
+                Navigator.of(context).pop();
+              },
+              child: const Text('Renomear'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -306,6 +367,10 @@ class _BarcodeScannerState extends State<BarcodeScanner> {
                       IconButton(
                         onPressed: () => _shareFile(fileName),
                         icon: const Icon(Icons.share),
+                      ),
+                      IconButton(
+                        onPressed: () => _renameFile(fileName),
+                        icon: const Icon(Icons.edit),
                       ),
                     ],
                   ),
