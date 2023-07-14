@@ -20,6 +20,16 @@ Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equ
 
 - Firebase: Para armazenar os dados das listas e equipamentos, o aplicativo utiliza o Firebase, um serviço de banco de dados em tempo real fornecido pela Google.
 
+## Contribuições e Feedback
+Contribuições: Se você deseja contribuir para o desenvolvimento do aplicativo, fique à vontade para abrir pull requests ou propor novas funcionalidades. O projeto está aberto a colaborações e incentiva a participação da comunidade.
+
+Feedback: Se você tiver algum feedback, sugestão ou identificar problemas no aplicativo, abra uma issue no repositório do GitHub. Sua opinião é importante para ajudar a melhorar continuamente o aplicativo e fornecer a melhor experiência possível aos usuários.
+
+
+
+
+
+
 ## Instalação
 
 1. Certifique-se de ter o Flutter instalado em seu sistema. Você pode encontrar as instruções de instalação na [documentação oficial do Flutter](https://flutter.dev/docs/get-started).
