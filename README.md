@@ -1,6 +1,7 @@
 
 # Meu Aplicativo de Catalogação de Equipamentos de TI.
 
+[![Flutter](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) 
 
 Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equipamentos de TI de forma ágil e prática por código de barras. Ele oferece recursos de leitura de códigos de barras, criação de listas, inserção, exclusão, visualização e renomeação de listas, além de acesso rápido a sistemas web usando webview.
 
@@ -18,21 +19,14 @@ Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equ
 
 ## Tecnologias Utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) 
-## Flutter
+![Flutter](https://skillicons.dev/icons?i=flutter) 
 
 O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
-
 
 ## Contribuições e Feedback
 Contribuições: Se você deseja contribuir para o desenvolvimento do aplicativo, fique à vontade para abrir pull requests ou propor novas funcionalidades. O projeto está aberto a colaborações e incentiva a participação da comunidade.
 
 Feedback: Se você tiver algum feedback, sugestão ou identificar problemas no aplicativo, abra uma issue no repositório do GitHub. Sua opinião é importante para ajudar a melhorar continuamente o aplicativo e fornecer a melhor experiência possível aos usuários.
-
-
-
-
-
 
 ## Instalação
 
