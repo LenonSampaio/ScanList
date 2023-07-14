@@ -1,18 +1,24 @@
-# Aplicativo de Leitura de Código de Barras e Acesso Rápido
+# Meu Aplicativo de Catalogação de Equipamentos de TI
 
-Este é um aplicativo simples desenvolvido em Flutter que permite a leitura de códigos de barras e o armazenamento em uma lista. Além disso, oferece acesso rápido a sistemas usando webview.
+Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equipamentos de TI de forma ágil e prática. Ele oferece recursos de leitura de códigos de barras, criação de listas, inserção, exclusão, visualização e renomeação de listas, além de acesso rápido a sistemas web usando webview.
 
 ## Recursos
 
-- Leitura de códigos de barras: O aplicativo utiliza a câmera do dispositivo para ler códigos de barras, como QR codes e códigos de barras convencionais.
+- Leitura de Códigos de Barras: Utilizando a câmera do dispositivo, o aplicativo realiza a leitura de códigos de barras, permitindo uma catalogação rápida e precisa dos equipamentos de TI.
 
-- Armazenamento em lista: Os códigos de barras lidos são armazenados em uma lista, permitindo que o usuário os acesse posteriormente.
+- Criação de Listas: Os usuários podem criar listas para organizar os equipamentos catalogados, facilitando a localização e gerenciamento dos itens.
 
-- Acesso rápido a sistemas: Além da funcionalidade de leitura de código de barras, o aplicativo oferece acesso rápido a sistemas usando webview, permitindo que o usuário acesse rapidamente sistemas externos relacionados aos códigos de barras lidos.
+- Inserção, Exclusão e Visualização de Equipamentos: Os usuários podem adicionar novos equipamentos à lista, remover equipamentos existentes e visualizar os detalhes de cada item catalogado.
 
-## Tecnologias utilizadas
+- Renomeação de Listas: É possível renomear as listas para melhor organização e identificação dos diferentes grupos de equipamentos.
+
+- Acesso Rápido a Sistemas Web: Além das funcionalidades de catalogação, o aplicativo oferece botões de acesso rápido e facilitado para sistemas web relevantes, permitindo que os usuários acessem rapidamente recursos adicionais relacionados aos equipamentos de TI.
+
+## Tecnologias Utilizadas
 
 - Flutter: O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
+
+- Firebase: Para armazenar os dados das listas e equipamentos, o aplicativo utiliza o Firebase, um serviço de banco de dados em tempo real fornecido pela Google.
 
 ## Instalação
 
