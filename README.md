@@ -18,7 +18,7 @@ Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equ
 
 ## Tecnologias Utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) Flutter: O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
+[![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) ## Flutter: O aplicativo foi desenvolvido usando o framework Flutter, que permite a criação de aplicativos multiplataforma com uma única base de código.
 
 
 ## Contribuições e Feedback
