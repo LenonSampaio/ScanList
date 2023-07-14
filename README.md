@@ -26,4 +26,4 @@ Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equ
 
 2. Clone este repositório em sua máquina local:
    ```shell
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/LenonSampaio/ScanList.git
