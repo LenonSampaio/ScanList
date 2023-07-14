@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Hexo-0E83CD?style=for-the-badge&logo=hexo&logoColor=white
+
 # Meu Aplicativo de Catalogação de Equipamentos de TI.
 
 Este é um aplicativo desenvolvido em Flutter que permite a catalogação de equipamentos de TI de forma ágil e prática por código de barras. Ele oferece recursos de leitura de códigos de barras, criação de listas, inserção, exclusão, visualização e renomeação de listas, além de acesso rápido a sistemas web usando webview.
