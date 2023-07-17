@@ -27,6 +27,19 @@ Contribuições: Se você deseja contribuir para o desenvolvimento do aplicativo
 
 Feedback: Se você tiver algum feedback, sugestão ou identificar problemas no aplicativo, abra uma issue no repositório do GitHub. Sua opinião é importante para ajudar a melhorar continuamente o aplicativo e fornecer a melhor experiência possível aos usuários.
 
+
+## Licença
+Copyright (c) 2023 Lenon Sampaio
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados (o "Software"), para lidar com o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar , publicar, distribuir, sublicenciar e/ou vender cópias do Software e permitir que as pessoas a quem o Software é fornecido o façam, sujeito às seguintes condições:
+
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, ILÍCITO OU DE OUTRA FORMA, DECORRENTE DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTROS NEGÓCIOS NO PROGRAMAS.
+
+
+
+
 ## Instalação
 
 1. Certifique-se de ter o Flutter instalado em seu sistema. Você pode encontrar as instruções de instalação na [documentação oficial do Flutter](https://flutter.dev/docs/get-started).
